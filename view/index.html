@@ -1,0 +1,230 @@
+<!-- =======================================================
+  * Author: Michael khalaf
+======================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll House</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+    </style>
+    <link rel="stylesheet" href="../content/css/home.css">
+    <link rel="stylesheet" href="../content/css/media_q.css">
+    <!-- =======================================================
+        * Author: Karen & Mario
+    ======================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- =============lg navbar start================== -->
+    <nav class="navbar nav_con navbar-expand d-lg-flex d-none p-3 pt-2 fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav col-5 fs-5 t-seconary d-flex justify-content-center mb-2 mb-lg-0">
+                    <li class="nav-item m-lg-4 mt-lg-3 m-1">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item m-lg-4 mt-lg-3 m-1">
+                        <a class="nav-link" aria-current="page" href="#">Product</a>
+                    </li>
+                    <li class="nav-item m-lg-4 mt-lg-3 m-1">
+                        <a class="nav-link" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item m-lg-4 mt-lg-3 m-1">
+                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="col-2 d-lg-flex d-none justify-content-center">
+                    <img src="../content/media/img/logo/zouslogo.png" alt="logo" class="col-8" style="width: 100%;">
+                </div>
+                <form class="col-lg-5 col-8" role="search">
+                    <div class="d-lg-flex d-none justify-content-end">
+                        <input class="ps-4 py-1 col-5 border-0 rounded-start-4 bg-gray" type="search"
+                            placeholder="Search ...." aria-label="Search">
+                        <div class="col-2 bg-gray rounded-end-5 me-5">
+                            <button class="btn col-12 p-2 d-flex justify-content-center rounded-4 btn-dark"
+                                type="submit">
+                                <img src="../content/media/img/png/person.png" alt="pearson" class="col-4">
+                                <div class="col_row mx-2 py-3 bg-light col-2"></div>
+                                <img src="../content/media/img/png/search.png" alt="search" class="col-4">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--! =============lg navbar end=================== -->
+    <!-- =============sm navbar start================== -->
+    <nav class="navbar bg-#fff d-lg-none d-flex sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--! =============sm navbar end=================== -->
+    <!-- =============header start================== -->
+    <div class="for_nav"></div>
+    <header class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-6 col-12 d-flex justify-content-center">
+                <img src="../content/media/img/png/header_lipstick.png" alt="lipstick"
+                    class="header_lipstick ms-md-5 ms-0 col-md-10 col-7">
+            </div>
+            <div class="col-md-6 col-12 d-flex flex-column justify-content-center header_text">
+                <h1 class="h1_header ms-md-5 ms-0 mb-0">Clear outline</h1>
+                <h1 class="h1_span ms-md-5 ms-0">& volume</h1>
+                <p class="ms-md-5 ms-0 my-3">Treat yourself to any two shades of our best selling<br> Extra lip Tint .A
+                    $ value,yours for $48.</p>
+                <div class="ms-md-5 mt-5 ms-0">
+                    <a class="btn btn-dark border-0 col-4 rounded-4 btn_1 p-4 text-light" type="button" href="#">See
+                        Our Blog
+                        Now</a>
+                    <a class="btn btn-light border-0 col-4 ms-4 rounded-4 btn_2 p-4" type="button" href="#products">
+                        <img src="../content/media/img/png/down_arrow.png" alt="down_arrow" width="20px" class="me-3">
+                        <span>Explor more</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fliud">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#282828" fill-opacity="1"
+                    d="M0,160L360,224L720,160L1080,32L1440,96L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+            </svg>
+            <div class="row px-5 pb-5 lipstick-div">
+                <div class="col-xl-4 py-4 col-12">
+                    <div class="ms-md-5 ms-0">
+                        <h1 class="h3_span ">50% discount</h1>
+                        <p class="p1_lipstick mb-5">for all lipsticks</p>
+                        <p class="p2_lipstick">the promition ends:</p>
+                        <div class="h3_span row" id="countdown">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-12 row justify-content-around">
+                    <div
+                        class="col-md-3 col-10 m-1 rounded-5 lip_card p-xxl-5 p-xl-3 p-md-5 pb-xxl-0 p-5 pb-0 pt-3 d-flex flex-column justify-content-end">
+                        <img src="../content/media/img/png/lipstick1.png" alt="lipstick1">
+                    </div>
+                    <div
+                        class="col-md-3 col-10 m-1 rounded-5 lip_card p-xxl-5 p-xl-3 p-md-5 pb-xxl-0 p-5 pb-0 pt-3 d-flex flex-column justify-content-end">
+                        <img src="../content/media/img/png/lipstick2.png" alt="lipstick2">
+                    </div>
+                    <div
+                        class="col-md-3 col-10 m-1 rounded-5 lip_card p-xxl-5 p-xl-3 p-md-5 pb-xxl-0 p-5 pb-0 pt-3 d-flex flex-column justify-content-end">
+                        <img src="../content/media/img/png/lipstick3.png" alt="lipstick3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--! =============header end=================== -->
+    <!-- =======================================================
+        * Author: Karen & Mario
+    ======================================================== -->
+    <!-- =============product section start================== -->
+    <section id="products">
+        <div class="container-fluid">
+            <div class="section-header">Popular Products</div>
+            <div class="view-all">
+                <a href="allproducts.html">View All <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="popular-products">
+                <div class="row">
+                    <div class="product-card col">
+                        <div class="card-img">
+                            <img src="../content/media/img/png/pexels-solodsha-7664873.jpg" alt="...">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-name">Lip Stick</h5>
+                            <p class="card-price">80 LE</p>
+                            <a href="#" class="card-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card col">
+                        <div class="card-img">
+                            <img src="../content/media/img/png/pexels-lipglooszous.jpg" alt="...">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-name">Lip Gloss</h5>
+                            <p class="card-price">80 LE</p>
+                            <a href="#" class="card-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card col">
+                        <div class="card-img">
+                            <img src="../content/media/img/png/mascara.jpg" alt="...">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-name">Mascara</h5>
+                            <p class="card-price">80 LE</p>
+                            <a href="#" class="card-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="product-card col">
+                        <div class="card-img">
+                            <img src="../content/media/img/png/mascara.jpg" alt="...">
+                        </div>
+                        <div class="card-content">
+                            <h5 class="card-name">Mascara</h5>
+                            <p class="card-price">80 LE</p>
+                            <a href="#" class="card-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============product section end================== -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="../content/js/home.js"></script>
+</body>
+
+</html>

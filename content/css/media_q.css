@@ -1,0 +1,67 @@
+@media only screen and (max-width: 870px) {
+    .h1_header {
+        font-size: xx-large !important;
+    }
+
+    .header_text p {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .h1_span {
+        font-size: xx-large !important;
+    }
+
+    .h3_span {
+        font-size: x-large !important;
+    }
+
+    .header_text {
+        text-align: center !important;
+    }
+
+    .btn_1 {
+        font-size: xx-small !important;
+    }
+
+    .btn_2 {
+        font-size: xx-small !important;
+    }
+
+    .btn_2 img {
+        width: 10px !important;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 869px) {
+    .h1_header {
+        font-size: 60px !important;
+    }
+
+    .btn_1 {
+        font-size: small !important;
+    }
+
+    .btn_2 {
+        font-size: small !important;
+    }
+
+    .header_text p {
+        font-size: small !important;
+    }
+
+    .h1_span {
+        font-size: 80px !important;
+
+    }
+
+    .h3_span {
+        font-size: 40px !important;
+    }
+}
+
+/*=======================================================
+  * Author: Michael khalaf
+========================================================*/

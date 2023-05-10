@@ -1,0 +1,196 @@
+/* ==================general=============== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.bg-gray {
+    background-color: #efefef;
+}
+
+/*! =================general=============== */
+
+/* ==================navbar================ */
+.col_row {
+    background-color: #fff;
+    width: 1px;
+    height: 100%;
+}
+
+@keyframes nav_animation {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: #ffffffbe;
+    }
+}
+
+.solid-nav {
+    background-color: #ffffffbe;
+    margin: 0px !important;
+    animation-name: nav_animation;
+    animation-duration: 2s;
+}
+
+/*! ==================navbar================ */
+
+/* ==================header=============== */
+
+.h1_header {
+    font-size: 85px !important;
+}
+
+header {
+    overflow: hidden;
+}
+
+.h1_span {
+    font-size: 110px !important;
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: linear-gradient(#f8434a, #c7242e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.h3_span {
+    font-size: 50px !important;
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: linear-gradient(#fff, #d4d4d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header_text p {
+    font-size: large;
+}
+
+.btn_1 {
+    background-color: #f13939;
+    font-size: medium;
+}
+
+.btn_2 {
+    background-image: linear-gradient(#ececec, #fff);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.lipstick-div {
+    background-color: #282828;
+}
+
+.p1_lipstick {
+    color: #fafafa;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.p2_lipstick {
+    color: #fafafa;
+    font-size: x-large;
+}
+
+.lipstick_dotes {
+    background-image: linear-gradient(#f8434a, #c7242e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.lip_card {
+    background-color: #404040;
+    border-left: #828282 3px solid;
+    border-top: #828282 3px solid;
+    overflow: hidden;
+}
+
+/*! =================header=============== */
+/*=======================================================
+  * Author: Michael khalaf
+========================================================*/
+
+/*=======================================================
+  * Author: Karen & Mario
+========================================================*/
+/*! =================Products=============== */
+
+.popular-products{
+    width: 95%;
+    margin: auto;
+}
+
+.view-all {
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.view-all a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+.section-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.product-card{
+    text-align: center;
+    margin: 3%;
+}
+
+.card-img img{
+    border-radius: 10px;
+    width: 75%;
+}
+
+.card-name{
+    font-size: 100%;
+    font-weight: 400;
+    margin: 5% 0;
+    font-weight: bold;
+}
+
+.card-price{
+    font-size: 16px;
+}
+
+.card-btn{
+    display: inline-block;
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    background-color: #282828;
+    border-radius: 0.5rem;
+    padding: 3% 5%;
+    font-weight: 100;
+}
+/*! =================Products=============== */
+
+/*=======================================================
+  * Author: Karen & Mario
+========================================================*/
