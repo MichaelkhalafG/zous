@@ -34,19 +34,19 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-center py-4" id="navbarSupportedContent">
                 <ul class="navbar-nav col-5 fs-5 t-seconary d-flex justify-content-center mb-2 mb-lg-0">
                     <li class="nav-item m-lg-4 mt-lg-3 m-1">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item m-lg-4 mt-lg-3 m-1">
-                        <a class="nav-link" aria-current="page" href="#">Product</a>
+                        <a class="nav-link" aria-current="page" href="#f">feautures</a>
                     </li>
                     <li class="nav-item m-lg-4 mt-lg-3 m-1">
-                        <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        <a class="nav-link" aria-current="page" href="#products">Product</a>
                     </li>
                     <li class="nav-item m-lg-4 mt-lg-3 m-1">
-                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link" aria-current="page" href="#c">Contact</a>
                     </li>
                 </ul>
                 <div class="col-2 d-lg-flex d-none justify-content-center">
@@ -88,13 +88,14 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Product</a>
+                            <a class="nav-link" aria-current="page" href="#f">feautures</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                            <a class="nav-link" aria-current="page" href="#products">Product</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link" aria-current="page" href="#c">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex mt-3" role="search">
@@ -120,8 +121,8 @@
                 <p class="ms-md-5 ms-0 my-3">Treat yourself to any two shades of our best selling<br> Extra lip Tint .A
                     $ value,yours for $48.</p>
                 <div class="ms-md-5 mt-5 ms-0">
-                    <a class="btn btn-dark border-0 col-4 rounded-4 btn_1 p-4 text-light" type="button" href="#">See
-                        Our Blog
+                    <a class="btn btn-dark border-0 col-4 rounded-4 btn_1 p-4 text-light" type="button" href="allproducts.html">See
+                        Our Products
                         Now</a>
                     <a class="btn btn-light border-0 col-4 ms-4 rounded-4 btn_2 p-4" type="button" href="#products">
                         <img src="../content/media/img/png/down_arrow.png" alt="down_arrow" width="20px" class="me-3">
@@ -160,22 +161,66 @@
                     </div>
                 </div>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#282828" fill-opacity="1" d="M0,128L360,288L720,128L1080,128L1440,64L1440,0L1080,0L720,0L360,0L0,0Z">
+                </path>
+            </svg>
         </div>
     </header>
     <!--! =============header end=================== -->
+    <section class="py-0 px-5" id="f">
+        <div class="d-flex flex-column text-center justify-content-center">
+            <h1 class="h1 pt-0 p-3 col-12 fw-bold">
+                feautures
+            </h1>
+        </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img src="../content/media/img/png/lips_kiro_1.png" class="p-4 mx-5 col-5 img-kiro bg-danger">
+                        <h3 class="pt-3">Transferproof</h3>
+                        <p>Gives a little volume to your lips,
+                        </p>
+                        <p>highighting them symmetrically</p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <img src="../content/media/img/png/cold_kiro_2.png" class="p-4 col-5 img-kiro bg-danger">
+                        <h3 class="pt-3">Long Lasting</h3>
+                        <p>Dont worry about maintaning </p>
+                        <p>the lipstick effect for 48 hours</p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <img src="../content/media/img/png/lipstick_kiro_3.png"class="p-4 col-5 img-kiro bg-danger">
+                        <h3 class="pt-3">Easy to Use</h3>
+                        <p>Small lipstick size,provides</p>
+                        <p>maximum convenience</p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <img src="../content/media/img/png/lipstick_kiro_4.png" class="p-4 col-5 img-kiro bg-danger">
+                        <h3 class="pt-3">Matte and Glossy</h3>
+                        <p>Choose according to your </p>
+                        <p>taste from your preferences</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     <!-- =======================================================
         * Author: Karen & Mario
     ======================================================== -->
     <!-- =============product section start================== -->
-    <section id="products">
+    <div class="container-fliud"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#F8F9FA" fill-opacity="1"
+            d="M0,32L360,192L720,32L1080,32L1440,96L1440,320L1080,320L720,320L360,320L0,320Z"></path>
+    </svg></div>
+    <section id="products" class="rounded-top-5 m-0 bg-light">
         <div class="container-fluid">
-            <div class="section-header">Popular Products</div>
-            <div class="view-all">
-                <a href="allproducts.html">View All <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="section-header m-0">Popular Products</div>
+            <div class="view-all pb-3" >
+                <a href="allproducts.html">View All <i class="fa-solid fa-arrow-right pt-5 pe-5"></i></a>
             </div>
             <div class="popular-products">
                 <div class="row">
-                    <div class="product-card col">
+                    <div class="product-card col-lg-3 col-md-6 col-12 mx-0">
                         <div class="card-img">
                             <img src="../content/media/img/png/pexels-solodsha-7664873.jpg" alt="...">
                         </div>
@@ -185,7 +230,7 @@
                             <a href="#" class="card-btn">Buy Now</a>
                         </div>
                     </div>
-                    <div class="product-card col">
+                    <div class="product-card col-lg-3 col-md-6 col-12 mx-0">
                         <div class="card-img">
                             <img src="../content/media/img/png/pexels-lipglooszous.jpg" alt="...">
                         </div>
@@ -195,7 +240,7 @@
                             <a href="#" class="card-btn">Buy Now</a>
                         </div>
                     </div>
-                    <div class="product-card col">
+                    <div class="product-card col-lg-3 col-md-6 col-12 mx-0">
                         <div class="card-img">
                             <img src="../content/media/img/png/mascara.jpg" alt="...">
                         </div>
@@ -205,7 +250,7 @@
                             <a href="#" class="card-btn">Buy Now</a>
                         </div>
                     </div>
-                    <div class="product-card col">
+                    <div class="product-card col-lg-3 col-md-6 col-12 mx-0">
                         <div class="card-img">
                             <img src="../content/media/img/png/mascara.jpg" alt="...">
                         </div>
@@ -224,26 +269,26 @@
         * Author: Maria
     ======================================================== -->
     <!-- =============footer section start================== -->
-    <footer>
-        <div class="container-fliud">
-            <div class="first-footer footer">
-                <div class="footer-qoute">
-                    <i class="fa-solid fa-quote-left" style="color: #ffffff;"></i>
+    <footer id="c">
+        <div class="container-fliud m-0 rounded-0 bg-#f13939">
+            <div class="first-footer m-0 row rounded-5 pb-0 footer">
+                <div class="footer-qoute p-5 col-md-6 col-12">
+                    <i class="fa-solid pt-5 fa-quote-left" style="color: #ffffff;"></i>
                     <p>amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi
                         sit amet mauris commodo quis imperdiet</p>
                 </div>
-                <img src="../content/media/img/png/model-bg.png" alt="model-image">
+                <img src="../content/media/img/png/model-bg.png" alt="model-image" class=" col-md-6 col-12">
             </div>
-            <div class="second-footer footer">
-                <img src="../content/media/img/logo/white-logo.png" alt="zous-logo">
-                <div class="footer-links">
+            <div class="second-footer row m-0 footer">
+                <img src="../content/media/img/logo/white-logo.png" alt="zous-logo" class="col-md-4 m-0 col-6">
+                <div class="footer-links" class="col-md-4 m-0 col-6">
                     <a href="allproducts.html">Products</a>
                     <a href="#">Home</a>
                     <a href="">Contact</a>
                 </div>
-                <div class="content">
+                <div class="col-md-4 m-0 col-12 content">
                     <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-                    <div class="input-group">
+                    <div class="input-group col-12" >
                         <input type="email" class="form-control" placeholder="Enter your email">
                         <span class="input-group-btn">
                             <button class="btn" type="submit">Subscribe Now</button>
